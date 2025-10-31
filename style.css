@@ -1,0 +1,161 @@
+.logo{
+  background-image: url("images./Capture-removebg-preview (1).png");
+  height: 200px;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.background{
+  background-image: url("navodnhanavodhimsara77@gmail.com_6686748789a67.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-body {
+  background: 
+  linear-gradient(45deg, rgba(0, 0, 128, 0.3) 25%, transparent 25%, transparent 50%, rgba(0, 0, 128, 0.3) 50%, rgba(0, 0, 128, 0.3) 75%, transparent 75%, transparent);
+
+}
+
+
+.theme{
+  background-color: black;
+}
+
+
+/* Header and Footer Styles */
+header {
+  /* Add your header styling */
+}
+
+footer {
+  /* Add your footer styling */
+}
+
+/* Single Product Page Styles */
+.singleProduct {
+  padding: 20px;
+}
+
+/* Product Image Section */
+.product-image-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-image-list li {
+  width: 80px;
+  cursor: pointer;
+}
+
+.product-image-list img {
+  width: 100%;
+  height: auto;
+}
+
+.mainImg {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Product Details Section */
+.product-details {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-info {
+  margin-bottom: 10px;
+}
+
+.product-seller {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.product-discount {
+  background-color: #f8d7da;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-quantity input {
+  width: 50px;
+  text-align: center;
+}
+
+.qty-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.qty-inc,
+.qty-dec {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.product-action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Related Products Section */
+.related-products {
+  margin-top: 20px;
+}
+
+.related-products .card {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Product Details and Feedback Section */
+.product-details-section,
+.feedback-section {
+  padding: 20px;
+}
+
+.feedback-section {
+  height: 300px;
+  overflow-y: auto;
+}
